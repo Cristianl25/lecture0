@@ -11,6 +11,7 @@ td{
 button{
   border: 1px dotted green;
 }
+
 div{
   background-color: teal;
   border: 3px solid blue;
@@ -23,14 +24,36 @@ div{
   font-weight: bold;
 }
 
+#top{
+  font-size: 36px;
+}
+
+#middle{
+  font-size: 24px;
+}
+
+#bottom{
+  font-size: 12px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+
 table{
   border: 2px solid black;
+  border-collapse: collapse;
+  margin: 5px;
+  width: 50%;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
 }
 
 th{
-  border: 1px solid black;
-}
-
-td{
-  border: 1px solid black;
+  background-color: lightgray;
 }
